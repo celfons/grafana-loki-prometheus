@@ -1,4 +1,4 @@
-package br.com.seda.celfons
+package br.com.celfons
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
