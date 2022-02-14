@@ -7,14 +7,15 @@ services:
       - 3000:3000
 
   alertmanager:
-  image: prom/alertmanager:latest
-  ports:
-    - 9093:9093
+    image: prom/alertmanager:latest
+    ports:
+      - 9093:9093
 
   loki:
     image: grafana/loki:2.1.0
     ports:
       - 3100:3100
+
   prometheus:
     image: prom/prometheus:latest
     volumes:
